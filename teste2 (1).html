@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+ 
+<html lang="pt-br">
+
+ <head>
+ <title> TESTE </title>
+ <meta charset="utf-8"> 
+ </head>
+
+ <body>
+<!-- DADOS PESSOAIS-->
+<fieldset>
+ <legend>Dados Pessoais</legend>
+ <table cellspacing="10">
+  <tr>
+   <td>
+    <label for="nome">Nome: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="nome" placeholder = "seu  nome completo" size="43" maxlength="100">
+   </td>
+  <tr>
+   <td>
+    <label for="logradouro">Nascimento:</label>
+   </td>
+   <td align="left">
+    <input type="date">
+   </td>
+   <td>
+    <label for="numero">Naturalidade:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="naturalidade" placeholder="onde você nasceu">
+   </td>
+  </tr>
+  
+ <tr>
+   <td>
+    <label for="rg">RG: </label>
+   </td>
+   <td align="left">
+     <input type="text" name="rg" size="18" maxlength="20">
+   </td>
+   <td>
+    <label>CPF:</label>
+   </td>
+   <td align="left">
+   <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+   </td>
+  </tr>
+
+  <tr>
+   <td>
+    <label for="email">E-mail: </label>
+   </td>
+   <td align="left">
+     <input type="text" name="email" placeholder="Digite seu e-mail" size="30" maxlength="60">
+   </td>
+   <td>
+    <label>Telefone:</label>
+   </td>
+   <td align="left">
+   <input type="text" name="ddd" placeholder="DDD" size="3" maxlength="3"> - <input type="text" name="tel" placeholder="NUMERO" size="9" maxlength="9">
+   </td>
+  </tr>
+
+ </table>
+</fieldset>
+
+<br />
+<!-- ENDEREÇO -->
+<fieldset>
+ <legend>Dados de Endereço</legend>
+ <table cellspacing="10">
+
+  <tr>
+   <td>
+    <label for="logradouro">Logradouro:</label>
+   </td>
+   <td align="left">
+    <select name="logradouro">
+    <option>Rua</option>
+    <option>Avenida</option>
+    <option>Estrada</option>
+    <option>Rodovia</option>
+    </select>
+    <input type="text" name="rua" size="30" maxlength="90">
+   </td>
+   <td>
+    <label for="numero">Numero:</label>
+   </td>
+   <td align="left">
+    <input type="text" name="numero" size="8">
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="bairro">Bairro: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="bairro" size="43" maxlength="70">
+   </td>
+  </tr>
+  <tr>
+    <td>
+    <label for="estado">Estado:</label>
+   </td>
+   <td align="left">
+    <select name="estado"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+   <td>
+    <label for="Cidade">Cidade:</label>
+   </td>
+   <td align="left">
+    <select name="cidade"> 
+    <option value="ac">Rio Branco</option> 
+    <option value="al">Maceió</option> 
+    <option value="am">Manaus</option> 
+    <option value="ap">Macapá</option> 
+    <option value="ba">Salvador</option> 
+    <option value="ce">Fortaleza</option> 
+    <option value="df">Brasília</option> 
+    <option value="es">Vitória</option> 
+    <option value="go">Goiânia</option> 
+    <option value="ma">São Luiz</option> 
+    <option value="mt">Cuibá</option> 
+    <option value="ms">Campo Grande</option> 
+    <option value="mg">Belo Horizonte</option> 
+    <option value="pa">Belém</option> 
+    <option value="pb">João Pessoal</option> 
+    <option value="pr">Curitiba</option> 
+    <option value="pe">Recife</option> 
+    <option value="pi">Teresina</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Natal</option> 
+    <option value="ro">Porto Velho</option> 
+    <option value="rs">Porto Alegre</option> 
+    <option value="rr">Boa Vista</option> 
+    <option value="sc">Florianópolis</option> 
+    <option value="se">Aracaju</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Palmas</option> 
+   </select>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <label for="cep">CEP: </label>
+   </td>
+   <td align="left">
+    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+   </td>
+  </tr>
+ </table>
+</fieldset>
+<br />
+</form>
+ </body>
+</html>
